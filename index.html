@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple DApp</title>
+</head>
+
+<body>
+
+    <h2>Simple Storage DApp</h2>
+
+    <button onclick="connectWallet()">
+        Connect MetaMask
+    </button>
+
+    <br><br>
+
+    <input id="number" type="number"
+           placeholder="Enter number">
+
+    <button onclick="setNumber()">
+        Store Number
+    </button>
+
+    <button onclick="getNumber()">
+        Get Number
+    </button>
+
+    <p id="status"></p>
+
+    <p id="result"></p>
+
+    <script type="module" src="./app.js"></script>
+
+</body>
+
+</html>
